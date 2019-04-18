@@ -91,7 +91,9 @@
     End Function
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-
+        If txtCode.Text = "5" Then
+            Me.Close()
+        End If
         If Decimal.TryParse(txtNumOfPanels.Text, decPanels) Then
 
             If Decimal.TryParse(txtDeposit.Text, decDeposit) Then
