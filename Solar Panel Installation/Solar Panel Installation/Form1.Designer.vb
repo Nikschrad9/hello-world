@@ -86,6 +86,10 @@ Partial Class Form1
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(218, 26)
         Me.txtPhone.TabIndex = 5
+        Me.txtCode.Location = New System.Drawing.Point(379, 201)
+        Me.txtCode.Name = "txtCode"
+        Me.txtCode.Size = New System.Drawing.Size(218, 26)
+        Me.txtCode.TabIndex = 7
         '
         'Label3
         '
