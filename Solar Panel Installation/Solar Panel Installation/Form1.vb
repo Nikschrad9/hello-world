@@ -1,4 +1,6 @@
 ﻿Public Class Form1
+    
+    ' Class Level Variables
 
     Dim decPanels As Decimal
     Dim decDeposit As Decimal
